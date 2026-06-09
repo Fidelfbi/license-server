@@ -3,7 +3,7 @@ const app = express();
 app.use(express.json());
 
 // !!! IMPORTANT: Change this secret to something random and keep it safe !!!
-const SECRET_SALT = "UATB_V4_SECURE_SALT_2024";
+const SECRET_SALT = "UATB_V4.0_PRIVATE_SWEET_2088";
 
 // Function to generate a license key
 function generateLicenseKey(accountNumber) {
